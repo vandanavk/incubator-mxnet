@@ -23,7 +23,7 @@ import mxnet as mx
 from config_util import get_checkpoint_path, parse_contexts
 from stt_metric import STTMetric
 #tensorboard setting
-from tensorboard import SummaryWriter
+from mxboard import SummaryWriter
 import json
 from stt_bucketing_module import STTBucketingModule
 
